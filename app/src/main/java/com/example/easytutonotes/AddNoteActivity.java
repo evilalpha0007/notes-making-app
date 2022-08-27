@@ -33,7 +33,8 @@ public class AddNoteActivity extends AppCompatActivity {
                 long createdTime = System.currentTimeMillis();
 
                 realm.beginTransaction();
-                Note note = realm.createObject(Note.class);
+                Note note;
+                note = realm.createObject(Note.class);
                 note.setTitle(title);
                 note.setDescription(description);
                 note.setCreatedTime(createdTime);
