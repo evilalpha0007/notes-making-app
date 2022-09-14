@@ -9,8 +9,11 @@ import io.realm.RealmResults;
 import io.realm.Sort;
 
 import android.content.Intent;
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.RelativeLayout;
+import android.widget.ScrollView;
 
 import com.google.android.material.button.MaterialButton;
 

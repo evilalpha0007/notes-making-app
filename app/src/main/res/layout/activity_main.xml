@@ -4,9 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CF5981"
+    android:background="@drawable/gradient_list"
     android:padding="10dp"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:paddingBottom="8dp"
+    android:id="@+id/gradientback">
 
     <TextView
         android:id="@+id/notestitle"
@@ -23,18 +25,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/addnewnotebtn"
-        android:layout_below="@id/notestitle" />
+        android:layout_below="@id/notestitle"
+        android:layout_margin="5dp"/>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/addnewnotebtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cornerRadius="35dp"
         android:layout_alignParentBottom="true"
         android:backgroundTint="@color/teal_200"
         android:text="Add new note"
         android:textColor="#0B0B0B"
-        />
+        app:cornerRadius="35dp" />
 
 
 </RelativeLayout>
