@@ -3,7 +3,9 @@ package com.example.easytutonotes;
 import androidx.appcompat.app.AppCompatActivity;
 import io.realm.Realm;
 
+import android.app.AlertDialog;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;

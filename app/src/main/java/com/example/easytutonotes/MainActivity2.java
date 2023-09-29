@@ -22,14 +22,13 @@ public class MainActivity2 extends AppCompatActivity {
         appname=findViewById(R.id.appnames);
         lott=findViewById(R.id.lottie);
 
-
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent isplash=new Intent(MainActivity2.this,MainActivity.class);
-                startActivity(isplash);
-                finish();
+                Intent i=new Intent(MainActivity2.this,MainActivity.class);
+                startActivity(i);
             }
         },3000);
+
     }
 }

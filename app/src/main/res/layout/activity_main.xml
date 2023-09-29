@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_list"
+    android:background="@drawable/bag"
     android:padding="10dp"
     tools:context=".MainActivity"
     android:paddingBottom="8dp"
@@ -26,7 +26,10 @@
         android:layout_height="match_parent"
         android:layout_above="@id/addnewnotebtn"
         android:layout_below="@id/notestitle"
-        android:layout_margin="5dp"/>
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/addnewnotebtn"
